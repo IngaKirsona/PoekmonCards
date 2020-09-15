@@ -16,6 +16,7 @@
 		7AF32992251099FE0010C75D /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF32991251099FE0010C75D /* Pokemon.swift */; };
 		7AF329952510A79B0010C75D /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF329942510A79B0010C75D /* NetworkController.swift */; };
 		7AF329972510A7B80010C75D /* ImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF329962510A7B80010C75D /* ImageController.swift */; };
+		7AF329992510DC360010C75D /* PokemonShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF329982510DC360010C75D /* PokemonShowViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		7AF32991251099FE0010C75D /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		7AF329942510A79B0010C75D /* NetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
 		7AF329962510A7B80010C75D /* ImageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageController.swift; sourceTree = "<group>"; };
+		7AF329982510DC360010C75D /* PokemonShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonShowViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				7AF3297D251098840010C75D /* PokemonViewController.swift */,
+				7AF329982510DC360010C75D /* PokemonShowViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				7AF3297A251098840010C75D /* AppDelegate.swift in Sources */,
 				7AF3297C251098840010C75D /* SceneDelegate.swift in Sources */,
 				7AF329972510A7B80010C75D /* ImageController.swift in Sources */,
+				7AF329992510DC360010C75D /* PokemonShowViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

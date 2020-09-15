@@ -43,7 +43,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="4NO-7E-y6h" kind="show" id="4Jn-AP-SHu"/>
+                                            <segue destination="4NO-7E-y6h" kind="show" identifier="toPokemonShow" id="4Jn-AP-SHu"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -67,10 +67,10 @@
             </objects>
             <point key="canvasLocation" x="665" y="68"/>
         </scene>
-        <!--View Controller-->
+        <!--Pokemon Show View Controller-->
         <scene sceneID="dBY-fD-66D">
             <objects>
-                <viewController id="4NO-7E-y6h" sceneMemberID="viewController">
+                <viewController id="4NO-7E-y6h" customClass="PokemonShowViewController" customModule="PoekmonCards" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dAF-7b-kgT">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -89,6 +89,9 @@
                         <viewLayoutGuide key="safeArea" id="OC7-On-1Cs"/>
                     </view>
                     <navigationItem key="navigationItem" id="iA2-ZW-qPQ"/>
+                    <connections>
+                        <outlet property="imageView" destination="7rq-fO-Pu4" id="Dzp-yX-xxZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="krJ-je-kdJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
