@@ -13,10 +13,19 @@ class PokemonShowViewController: UIViewController {
     
     @IBOutlet weak var imageView: UIImageView!
     
+    @IBOutlet weak var pokemonName: UILabel!
+    @IBOutlet weak var pokemonNumber: UILabel!
+    @IBOutlet weak var pokemonSet: UILabel!
+    @IBOutlet weak var pokemonHp: UILabel!
+    @IBOutlet weak var pokemonSeries: UILabel!
+    
+    
     var pokemon: Pokemon?
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
@@ -27,6 +36,12 @@ class PokemonShowViewController: UIViewController {
         }else{
             print("pokemon image is nil")
         }
+        pokemonName.text = pokemon?.name
+        pokemonNumber.text = pokemon?.number
+        pokemonSet.text = pokemon?.pokemonSet
+        pokemonSeries.text = pokemon?.series
+        pokemonHp.text = pokemon?.hp
     }
+    
 }
 
