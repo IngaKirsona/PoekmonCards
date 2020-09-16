@@ -9,7 +9,7 @@
 import UIKit
 class ImageController {
     static func getImage(for url: String, completion: @escaping (UIImage?) -> Void){
-//-------> to check if url is a String
+        //-------> to check if url is a String
         guard let imageURL = URL(string: url) else{
             fatalError("Could not create url from string: \(url)")
         }
