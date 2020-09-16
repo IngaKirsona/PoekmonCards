@@ -35,14 +35,24 @@ class PokemonShowViewController: UIViewController {
                 self.imageView.image = image
             })
         }else{
-            print("pokemon image is nil")
+            print("pokemon image is nil!")
         }
-        pokemonName.text = pokemon?.name
-        pokemonNumber.text = pokemon?.number
-        pokemonSet.text = pokemon?.pokemonSet
-        pokemonSeries.text = pokemon?.series
+        
+        if pokemon?.name != nil{
+            pokemonName.text = pokemon?.name
+        }else{print("No name for pokemon!")}
+        if pokemon?.number != nil{
+            pokemonNumber.text = pokemon?.number
+        }else{print("This pokemon has no number!")}
+        if pokemon?.series != nil{
+            pokemonSeries.text = pokemon?.series
+        }else{print("This pokemon has no series!")}
+        if pokemon?.pokemonSet != nil{
+            pokemonSet.text = pokemon?.pokemonSet
+        }else{print("This pokemon has no set!")}
+        if pokemon?.hp != nil{
         pokemonHp.text = pokemon?.hp
+        }else{print("This pokemon has no hp!")}
     }
-    
 }
 
