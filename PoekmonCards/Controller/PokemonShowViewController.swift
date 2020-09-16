@@ -13,6 +13,7 @@ class PokemonShowViewController: UIViewController {
     
     @IBOutlet weak var imageView: UIImageView!
     
+   
     @IBOutlet weak var pokemonName: UILabel!
     @IBOutlet weak var pokemonNumber: UILabel!
     @IBOutlet weak var pokemonSet: UILabel!
